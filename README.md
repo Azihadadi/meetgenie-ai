@@ -70,3 +70,20 @@ python app.py
 3. View meeting minutes in the text box.
 
 4. Download structured meeting minutes and task list (outputs/meeting_minutes_and_tasks.txt).
+---
+## Project Structure
+```
+meetgenie-ai/
+│
+├── app.py                       # Main application code
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation
+├── utils/
+│   └── helpers.py               # Helper functions
+├── prompts/
+│   └── meeting_prompt.txt       # Prompt template for LLM
+├── sample_audio/
+│   └── sample_meeting.wav       # Sample meeting audio
+└── outputs/                     # Generated meeting minutes & tasks
+```
+   
