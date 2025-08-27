@@ -1,1 +1,13 @@
+# prompts/meeting_prompt.txt
 
+Generate meeting minutes and a list of tasks based on the provided context.
+
+Context:
+{context}
+
+Meeting Minutes:
+- Key points discussed
+- Decisions made
+
+Task List:
+- Actionable items with assignees and deadlines
